@@ -20,6 +20,9 @@ function blob_fixup() {
             sed -i 's/GB2312/iso-8859-1/g' "${2}"
             sed -i 's/xmlversion/xml version/g' "${2}"
             ;;
+        vendor/etc/libnfc-brcm.conf)
+            sed -i 's\/data/nfc\/data/vendor/nfc\g' "${2}"
+            ;;
     esac
 }
 
