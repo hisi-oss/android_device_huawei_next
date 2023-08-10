@@ -239,6 +239,9 @@ vendor/lib64/hwcam/hwcam.hi3650.m.NEXT.so
 product/etc/nfc/libnfc_nxp_next_L09.conf:vendor/etc/libnfc-nxp.conf
 odm/etc/libnfc-brcm.conf:vendor/etc/libnfc-brcm.conf
 
+# NFC firmware
+odm/etc/firmware/libpn548ad_fw.so:vendor/lib64/libpn548ad_fw.so
+
 # Nvram
 vendor/firmware/nvram43455_hw.txt
 vendor/firmware/nvram43455_hw_vn1.txt
