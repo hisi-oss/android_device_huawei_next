@@ -11,6 +11,10 @@ $(call inherit-product, device/huawei/hi3650-8-common/common.mk)
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 23
 
