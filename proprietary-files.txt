@@ -215,6 +215,26 @@ vendor/etc/camera/tornado/SunsetModelTOA.model
 vendor/etc/camera/tracking/targettracking.xml
 vendor/etc/camera/videostabilization/config.xml
 
+# Camera (hwcam)
+vendor/lib64/hwcam/hwcam.ddt.so
+vendor/lib64/hwcam/hwcam.hi3650.NEXT.p.IMX179_LITEON.so
+vendor/lib64/hwcam/hwcam.hi3650.NEXT.p.IMX179_SUNNY.so
+vendor/lib64/hwcam/hwcam.hi3650.NEXT.p.IMX214_A.so
+vendor/lib64/hwcam/hwcam.hi3650.NEXT.p.IMX230_A.so
+vendor/lib64/hwcam/hwcam.hi3650.NEXT.p.IMX278_LITEON.so
+vendor/lib64/hwcam/hwcam.hi3650.NEXT.p.IMX278_SUNNY.so
+vendor/lib64/hwcam/hwcam.hi3650.NEXT.p.IMX298_LG.so
+vendor/lib64/hwcam/hwcam.hi3650.NEXT.p.IMX298_LITEON.so
+vendor/lib64/hwcam/hwcam.hi3650.NEXT.s.IMX179_LITEON.so
+vendor/lib64/hwcam/hwcam.hi3650.NEXT.s.IMX179_SUNNY.so
+vendor/lib64/hwcam/hwcam.hi3650.NEXT.s.IMX214_A.so
+vendor/lib64/hwcam/hwcam.hi3650.NEXT.s.IMX230_A.so
+vendor/lib64/hwcam/hwcam.hi3650.NEXT.s.IMX278_LITEON.so
+vendor/lib64/hwcam/hwcam.hi3650.NEXT.s.IMX278_SUNNY.so
+vendor/lib64/hwcam/hwcam.hi3650.NEXT.s.IMX298_LG.so
+vendor/lib64/hwcam/hwcam.hi3650.NEXT.s.IMX298_LITEON.so
+vendor/lib64/hwcam/hwcam.hi3650.m.NEXT.so
+
 # NFC Configs
 product/etc/nfc/libnfc_nxp_next_L09.conf:vendor/etc/libnfc-nxp.conf
 odm/etc/libnfc-brcm.conf:vendor/etc/libnfc-brcm.conf

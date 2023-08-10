@@ -12,5 +12,8 @@ DEVICE_PATH := device/huawei/next
 # Display
 TARGET_SCREEN_DENSITY := 480
 
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # Inherit the proprietary files
 include vendor/huawei/next/BoardConfigVendor.mk
