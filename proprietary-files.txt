@@ -1,4 +1,4 @@
-# Unpinned blobs from hi3650-user 8.0.0 OPR6.170623.010 eng.jenkin.20180721.001932 test-keys
+# Unpinned blobs from NXT-AL10-user 8.0.0 HUAWEINXT-AL10 829(C00) release-keys
 
 # Audio configs
 odm/etc/audio/HiVoice/HiVoice_NEXT_normal.xml
