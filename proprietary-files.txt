@@ -215,6 +215,10 @@ vendor/etc/camera/tornado/SunsetModelTOA.model
 vendor/etc/camera/tracking/targettracking.xml
 vendor/etc/camera/videostabilization/config.xml
 
+# NFC Configs
+product/etc/nfc/libnfc_nxp_next_L09.conf:vendor/etc/libnfc-nxp.conf
+odm/etc/libnfc-brcm.conf:vendor/etc/libnfc-brcm.conf
+
 # Nvram
 vendor/firmware/nvram43455_hw.txt
 vendor/firmware/nvram43455_hw_vn1.txt
