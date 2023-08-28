@@ -10,7 +10,7 @@ include device/huawei/hi3650-8-common/BoardConfigCommon.mk
 DEVICE_PATH := device/huawei/next
 
 # Display
-TARGET_SCREEN_DENSITY := 480
+TARGET_SCREEN_DENSITY := 440
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
