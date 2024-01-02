@@ -12,8 +12,8 @@ function blob_fixup() {
             "${PATCHELF}" --replace-needed "libsensor.so" "libsensor_vendor.so" "${2}"
             "${PATCHELF}" --replace-needed "libgui.so" "libshim_hwcam.so" "${2}"
             # NOP out assertOk() and return_status()
-            "${SIGSCAN}" -p "e0 43 01 91 44 51 fa 97" -P "e0 43 01 91 1f 20 03 d5" -f "${2}"
-            "${SIGSCAN}" -p "e0 43 01 91 45 51 fa 97" -P "e0 43 01 91 1f 20 03 d5" -f "${2}"
+            "${SIGSCAN}" -p "e0 43 01 91 32 51 fa 97" -P "e0 43 01 91 1f 20 03 d5" -f "${2}"
+            "${SIGSCAN}" -p "e0 43 01 91 33 51 fa 97" -P "e0 43 01 91 1f 20 03 d5" -f "${2}"
             ;;
         vendor/etc/camera/*|odm/etc/camera/*)
             sed -i 's/gb2312/iso-8859-1/g' "${2}"
